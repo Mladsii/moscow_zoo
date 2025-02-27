@@ -1,0 +1,88 @@
+2025-02-27 11:08:15,750 - INFO - User contacted the zoo with result: слон
+2025-02-27 11:08:35,110 - INFO - Received feedback from user 1089342860: хороший бот
+2025-02-27 11:55:38,671 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+2025-02-27 11:55:38,673 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 91, in start_quiz
+    ask_question(chat_id)
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 110, in ask_question
+    bot.send_sticker(chat_id, sticker_id)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 2794, in send_sticker
+    apihelper.send_data(
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 1089, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+
+2025-02-27 12:47:00,509 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+2025-02-27 12:47:00,511 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 93, in start_quiz
+    ask_question(chat_id)
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 112, in ask_question
+    bot.send_sticker(chat_id, sticker_id)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 2794, in send_sticker
+    apihelper.send_data(
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 1089, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+
+2025-02-27 12:48:37,768 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+2025-02-27 12:48:37,770 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 93, in start_quiz
+    ask_question(chat_id)
+  File "/Users/maksimmironov/PycharmProjects/MoscowZoo/main.py", line 112, in ask_question
+    bot.send_sticker(chat_id, sticker_id)
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/__init__.py", line 2794, in send_sticker
+    apihelper.send_data(
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 1089, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maksimmironov/PycharmProjects/graffity/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: wrong remote file identifier specified: can't unserialize it
+
+2025-02-27 12:59:03,438 - INFO - User 1089342860 contacted the zoo with email: ma.mironoff@yandex.ru, totem animal: слон
+2025-02-27 13:45:33,267 - INFO - User 1089342860 contacted the zoo with email: ma.mir@ata.ru, totem animal: слон
